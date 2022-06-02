@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.new-break {
+height: 22px;
+background: #007A87; 
+color: #fff; }
+
+header {
+   height: 114px; 
+   width: 100%;
+   
+   position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+.logo {
+    margin-left: 30px;
+   height: 56px;
+   background: #fff;
+}
+.menu {
+   height: 36px;
+   background: #2F2D2D;
+
+}
+
+   .center-box {
+       height: 2100px;
+   }
+   .center-box .banner{
+           margin:  2% auto;
+           width: 80%;
+height: 250px;
+background: url(/assets/img/banner.png) ;
+background-size: cover;
+background-repeat: no-repeat;
+   }
+article .main {
+   margin:  0 auto;
+   width: 80%;
+   height: 240px;
+}
+/* Bài viết Slider */
+.main-left {
+   width: 70%;
+   height: 500px;
+   float: left;
+}
+/* 2 bài viết bên phải Slider */
+.main-left img {
+    width: 50%;
+    float: left;
+}
+/* Trình bày các bài viết */
+.tintuc {
+    margin-left: 11px;
+    max-width: 212px;
+    max-height: 400px;
+    float: left;
+}
+.tintuc img {
+    margin-top: 20px;
+    width: 100%;   
+}
+.tintuc button {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(90, 158, 158);
+    border: 0px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    line-height: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.tintuc a {
+    text-decoration: none;
+    
+}
+.tintuc h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    height: 240px;
+
+}
+.tintuc p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.tintuc h2 {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.sub-trai img {
+    height: 8em;
+padding: 5px}
+/* Thanh nav phải */
+.main-right {
+   float: left;
+   background: rgb(227, 227, 227, 0.1);
+   width: 30%;
+   height: 1000px;
+}
+.main-right h1 {
+    margin: 20px 20px;
+    color: #4D9FA9;
+}
+.main-right a {
+    text-decoration: none;
+    color: #4A4646;
+
+}
+.main-right ul li {
+    padding-bottom: 20px;
+    margin-left: 70px;
+}
+.main-right img {
+    width: 100%;
+}
+/* Chân trang */
+footer {
+   height: 300px;
+}
+footer h2, footer h4 {
+    text-align: center;
+}
+footer p {
+    float: left;
+    margin: 20px 120px
+}
+
+.img-footer {
+    margin: 0 auto;
+   
+    width: 20%;
+    height: 100px;
+
+}
+
+.img-footer img {
+    width: 100%;
+}
+/* Nút tìm kiếm đầu trang */
+header .search-btn {
+    color: #fff;
+    float: right;
+    line-height: 36px;
+    padding: 0 21px;
+    margin-right: -21px;
+}
+header .search-btn:hover{
+    cursor: pointer;
+}
+/* Menu đầu trang */
+#nav {
+    display: inline-block;
+    margin-left: 4.1em;
+}
+#nav > li  {
+    display: inline-block;
+
+}
+#nav li {
+    position: relative; 
+    list-style: none;
+  
+}
+
+#nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1em;
+
+}
+
+#nav li a {
+    text-decoration: none;
+    line-height: 36px;
+    display: block;
+    padding: 0 24px;
+
+
+}
+
+
+
+/*Sub menu */
+#nav .subnav {
+display: none;
+min-width: 160px;
+position: absolute;
+background: #fff;
+    box-shadow: 0 0 10px  rgba(0 ,0 ,0 ,0.3);
+}
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav .subnav li:hover,
+#nav > li:hover > a {
+    color: #000;
+    background: #ccc;
+
+}
+
+#nav .subnav a {
+    color: #000;
+    padding: 0 12px;
+    line-height: 36px;
+    
+}
+
+/*banner auto*/
+.mySlides {
+    display: none;
+}
+.mySlides img {
+    height: 255px;
+}
+
+/* .mySlides img {
+    vertical-align: middle; 
+} */
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1116px;
+    position: relative;
+    margin: auto;
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+/*SLIDE TEXT*/
+
+.section {
+    text-align: left;
+
+}
+
+.bg-gradient {
+    color: black;
+}
+
+.slider {
+    position: absolute;
+    top: -40px;
+    left: 70px;
+    width: 500px;
+}
+
+.box {
+    padding: 20px;
+    color: initial;
+}
+
+.box a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+.hot {
+    margin-left: 30px;
+}
+.hot p {
+    line-height: 22px;
+}
+.slick-prev {
+    position: absolute;
+    right: -30px;
+    left: -25px;
+    background-color: black;
+}
+
+.slick-next {
+    right: -25px;
+    background-color: black;
+}
+
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    right: -870%;
+    top: 50%;
+    display: block;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #bebabb;
+}
+
+.slick-prev {
+    left: 920%
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+    background-color: red;
+    border: 1px solid #f70c29;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #c9c9c9;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Search */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    height: 36px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    height: 36px;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #login {
+      margin-left: 120px;
+      width: 10%;
+      height: 26;
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+      border-top: 1px solid ghostwhite;
+      border-bottom: 1px solid ghostwhite;
+
+  }
+  #login:hover {
+      color: #d6cccc;
+  }
+  #reg:hover {
+    color: #d6cccc;
+}
+  #reg {
+    width: 10%;
+    height: 26;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-top: 1px solid ghostwhite;
+    border-bottom: 1px solid ghostwhite;
+
+}
+span {
+    color: #f1f1f1;
+}
+.center-box  {
+    border: 1px solid green;
+}
