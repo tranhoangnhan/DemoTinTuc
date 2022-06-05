@@ -57,7 +57,7 @@ article .main {
 /* Bài viết Slider */
 .main-left {
    width: 70%;
-   height: 500px;
+   height: 700px;
    float: left;
 }
 /* 2 bài viết bên phải Slider */
@@ -75,6 +75,9 @@ article .main {
 .tintuc img {
     margin-top: 20px;
     width: 100%;   
+}
+.tintuc img:hover {
+    opacity: 0.6;
 }
 .tintuc button {
     width: 100%;
@@ -131,7 +134,7 @@ article .main {
 }
 
 .sub-trai img {
-    height: 8em;
+    height: 10em;
 padding: 5px}
 /* Thanh nav phải */
 .main-right {
@@ -466,19 +469,83 @@ span {
 .center-box  {
     border: 1px solid green;
 }
-@media screen and (max-width: 720px) {
-   #nav {
-       display: none;
+.nav-icon-btn {
+    margin-left: 100px;
+    width: 28px;
+    height: 28px;
+    color: #ccc;
+    float: left;
+    display: none;
+}
+.nav-overplay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.2);
+    display: none;
+    animation: fadeIns linear 0.4s;
+}
+.nav-mobile {
+    position: fixed;
+    top: 77px;
+    left: 116px;
+    bottom: 0;
+    width: 320px;
+    max-width: 100%;
+    background-color: rgb(200, 200, 200,1);
+    transform: translateX(-137%);
+    opacity: 0;
+    transition: transform linear 0.4s , opacity linear 0.6s;
+}
+.nav-close-icon {
+    width: 28px;
+    height: 28px;
+    float: right;
+  
+}
+#nav-input-mobile {
+    display: none;
+}
+#nav-input-mobile:checked ~ .nav-overplay {
+    display: block;
+}
+#nav-input-mobile:checked ~ .nav-mobile {
+    transform: translateX(-20%);
+    opacity: 1;
 
-   }
-   #login , #reg {
-       line-height: 36px;
-   }
-  .center-box {
-      width: 100%;
-  }
-  .banner  {
-      width: 100%;
-      
-  }
- }
+}
+.nav-mobile li {
+padding: 15px;
+font-size: 1rem;}
+
+.nav-mobile li a {
+text-decoration: none;
+}
+@keyframes fadeIns {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* Mobile: width < 740px  */
+    @media only screen and (max-width: 739px) {
+
+    }
+/* Tablet: width >- 740px and width < 1024px */
+/* @media only screen and (min-width: 740px) and (max-width: 1023px) { */
+    @media only screen and (max-width: 1023px) {
+    .nav-icon-btn {
+        display: block;
+    }
+    #nav {
+        display: none;
+    }
+}
+/* PC: width >- 1024px */
+@media only screen and (min-width: 1024px) {
+        
+}
