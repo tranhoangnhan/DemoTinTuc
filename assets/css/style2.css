@@ -32,6 +32,7 @@ header {
 }
 
 .menu {
+<<<<<<< HEAD
     height: 36px;
     max-width: 100%;
     background: #2F2D2D;
@@ -52,11 +53,31 @@ height: 2150px;}
 article {
     height: 100%;
 }
+=======
+   height: 36px;
+   max-width: 100%;
+   background: #2F2D2D;
+
+}
+
+   .center-box {
+       height: 2280px;
+   }
+   .center-box .banner{
+           margin:  2% auto;
+           width: 80%;
+height: 15%;
+background: url(../img/banner.png) ;
+background-repeat: no-repeat;
+margin-top: 120px;
+   }
+>>>>>>> 6142cb726c613472acaf56983b7ff47068af0d7a
 article .main {
     margin: 0 auto;
     width: 80%;
     height: 240px;
 }
+<<<<<<< HEAD
 
 .main-tintuc {
     width: 100%;
@@ -71,6 +92,19 @@ article .main {
     width: 70%;
     height: 700px;
     float: left;
+=======
+.main-tintuc {
+    width: 100%;
+}
+.tintuc {
+    width: 30%;
+}
+/* Bài viết Slider */
+.main-left {
+   width: 70%;
+   height: 700px;
+   float: left;
+>>>>>>> 6142cb726c613472acaf56983b7ff47068af0d7a
 }
 
 /* 2 bài viết bên phải Slider */
@@ -91,11 +125,17 @@ article .main {
     margin-top: 20px;
     width: 100%;
 }
+<<<<<<< HEAD
 
 .tintuc img:hover {
     opacity: 0.6;
 }
 
+=======
+.tintuc img:hover {
+    opacity: 0.6;
+}
+>>>>>>> 6142cb726c613472acaf56983b7ff47068af0d7a
 .tintuc button {
     width: 100%;
     height: 30px;
@@ -110,6 +150,7 @@ article .main {
 
 .tintuc a {
     text-decoration: none;
+<<<<<<< HEAD
 
 }
 
@@ -126,6 +167,30 @@ article .main {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     /* padding-bottom: 1rem; */
+=======
+    
+}
+.tintuc h1 {
+    margin-bottom: 10px;
+    font-size: 17px;
+    max-height: 240px;
+    text-overflow: ellipsis;
+    /* text-overflow: ellipsis; */
+    clear: both;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    /* padding-bottom: 1rem; */
+}
+.tintuc h1:hover a {
+    color: #4D9FA9;
+}
+.tintuc p {
+    font-size: 11px;
+    margin-bottom: 7px;
+>>>>>>> 6142cb726c613472acaf56983b7ff47068af0d7a
 }
 
 .tintuc h1:hover a {
@@ -140,6 +205,19 @@ article .main {
 .tintuc h2 {
     margin-top: 10px;
     font-style: italic;
+}
+.tintucright h4 {
+    font-size: 18px;
+    max-height: 40px;
+    text-overflow: ellipsis;
+    /* text-overflow: ellipsis; */
+    clear: both;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    /* padding-bottom: 1rem; */
 }
 
 .tintucright h4 {
@@ -158,9 +236,13 @@ article .main {
 
 .sub-trai img {
     height: 10em;
+<<<<<<< HEAD
     padding: 5px
 }
 
+=======
+padding: 5px}
+>>>>>>> 6142cb726c613472acaf56983b7ff47068af0d7a
 /* Thanh nav phải */
 .main-right {
     float: left;
@@ -518,14 +600,20 @@ span {
 .center-box {
     border: 1px solid green;
 }
+<<<<<<< HEAD
 
 .nav-icon-btn {
     margin-left: 97px;
+=======
+.nav-icon-btn {
+    margin-left: 100px;
+>>>>>>> 6142cb726c613472acaf56983b7ff47068af0d7a
     width: 28px;
     height: 28px;
     color: #ccc;
     float: left;
     display: none;
+<<<<<<< HEAD
     fill: #fff
 }
 
@@ -537,12 +625,16 @@ span {
     color: #121eff;
 }
 
+=======
+}
+>>>>>>> 6142cb726c613472acaf56983b7ff47068af0d7a
 .nav-overplay {
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+<<<<<<< HEAD
     background-color: rgba(0, 0, 0, 0.2);
     display: none;
     animation: fadeIns linear 0.4s;
@@ -562,11 +654,29 @@ span {
 }
 #nav-list-mobile li:hover {
     background-color: #4D9FA9;
+=======
+    background-color: rgba(0,0,0,0.2);
+    display: none;
+    animation: fadeIns linear 0.4s;
+}
+.nav-mobile {
+    position: fixed;
+    top: 77px;
+    left: 116px;
+    bottom: 0;
+    width: 320px;
+    max-width: 100%;
+    background-color: rgb(200, 200, 200,1);
+    transform: translateX(-137%);
+    opacity: 0;
+    transition: transform linear 0.4s , opacity linear 0.6s;
+>>>>>>> 6142cb726c613472acaf56983b7ff47068af0d7a
 }
 .nav-close-icon {
     width: 28px;
     height: 28px;
     float: right;
+<<<<<<< HEAD
     margin-right: 20px;
     fill: #0b7dda;
 
@@ -581,10 +691,22 @@ span {
 }
 
 #nav-input-mobile:checked~.nav-mobile {
+=======
+  
+}
+#nav-input-mobile {
+    display: none;
+}
+#nav-input-mobile:checked ~ .nav-overplay {
+    display: block;
+}
+#nav-input-mobile:checked ~ .nav-mobile {
+>>>>>>> 6142cb726c613472acaf56983b7ff47068af0d7a
     transform: translateX(-20%);
     opacity: 1;
 
 }
+<<<<<<< HEAD
 
 .nav-mobile li {
     padding: 15px;
@@ -595,15 +717,28 @@ span {
     text-decoration: none;
 }
 
+=======
+.nav-mobile li {
+padding: 15px;
+font-size: 1rem;}
+
+.nav-mobile li a {
+text-decoration: none;
+}
+>>>>>>> 6142cb726c613472acaf56983b7ff47068af0d7a
 @keyframes fadeIns {
     from {
         opacity: 0;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6142cb726c613472acaf56983b7ff47068af0d7a
     to {
         opacity: 1;
     }
 }
+<<<<<<< HEAD
 @media only screen and   (max-width: 436px){
     #nav {
         display: none;
@@ -703,3 +838,23 @@ span {
 
 /* PC: width >- 1024px */
 @media only screen and (min-width: 64em) {}
+=======
+/* Mobile: width < 740px  */
+    @media only screen and (max-width: 739px) {
+
+    }
+/* Tablet: width >- 740px and width < 1024px */
+/* @media only screen and (min-width: 740px) and (max-width: 1023px) { */
+    @media only screen and (max-width: 1023px) {
+    .nav-icon-btn {
+        display: block;
+    }
+    #nav {
+        display: none;
+    }
+}
+/* PC: width >- 1024px */
+@media only screen and (min-width: 1024px) {
+        
+}
+>>>>>>> 6142cb726c613472acaf56983b7ff47068af0d7a
