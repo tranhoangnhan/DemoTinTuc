@@ -218,13 +218,7 @@ footer hr {
 
 
 
-.container {
-justify-content: center;
-display: flex;
-border: 1px solid #000;
-border-radius: 10px;
-width: 50%;
-}
+
 
 #fb {
     
@@ -262,6 +256,10 @@ width: 50%;
     margin-bottom: 10px;
     cursor: pointer;
 
+}
+.center-box {
+    margin: 0 auto;
+    width: 50%;
 }
 .container h2 {
     text-align: center;

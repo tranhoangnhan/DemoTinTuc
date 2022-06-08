@@ -218,12 +218,9 @@ footer hr {
 
 
 
-.container {
-justify-content: center;
-display: flex;
-border: 1px solid #000;
-border-radius: 10px;
-width: 50%;
+.center-box {
+    margin: 0 auto;
+    width: 50%;
 }
 
 #fb {

@@ -3,15 +3,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
 }
 
 /* End Reset CSS */
 
 /* Start Font CSS */
 
-html {
-    font-family: Helvetica, Arial, sans-serif;
-}
 
 /* End Font CSS */
 /* Start Header CSS */
@@ -149,14 +147,15 @@ h3 {
 /* Start Icon Search CSS */
 
 .header .search-btn {
+    margin: -46px 0px;
     color: #fff;
     float: right;
-    line-height: 46px;
+    line-height: 44px;
     padding: 0 21px;
 }
 
 .header .search-btn:hover {
-    background-color: #f44366;
+    background-color: grey;
     cursor: pointer;
 }
 
@@ -240,6 +239,9 @@ h3 {
 }
 
 .tintuc img {
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     margin-top: 20px;
     width: 100%;
 }
@@ -249,18 +251,22 @@ h3 {
 }
 
 .tintuc button {
+    
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     width: 100%;
     height: 30px;
-    background-color: rgb(90, 158, 158);
+    background-color: rgb(18, 95, 95,1);
     border: 0px solid #fff;
-    border-radius: 10px;
     color: #fff;
     line-height: 30px;
     margin-bottom: 20px;
     cursor: pointer;
 }
-
-.tintuc a {
+.tintuc button:hover {
+    background-color: rgb(18, 95, 95,0.9);
+}
+.tintuc > a {
     text-decoration: none;
 
 }
@@ -300,11 +306,22 @@ margin-bottom: 20px;}
 }
 
 .tintuc h2 {
+    font-size: 24px;
+    padding-left: 10px;
     margin-top: 10px;
-    font-style: italic;
+    border-top: 1px;
+    background-color: rgb(159, 179, 179,0.2);
+    color: #0b7dda;
+    width: 200px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+    
 }
 /* End bai viet */
-
+a {
+    text-decoration: none;
+}
 .main-right {
     background: rgb(227, 227, 227, 0.3);
     height: 950px;
@@ -331,6 +348,8 @@ margin-bottom: 20px;}
 }
 
 .banner {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     margin: 2% auto;
     width: 100%;
     height: 300px;
@@ -352,7 +371,7 @@ margin-bottom: 20px;}
 }
 
 .mySlides img {
-    height: 300px;
+    height: 244px;
 }
 
 /* .mySlides img {
@@ -520,6 +539,19 @@ margin-bottom: 20px;}
 }
 
 .go-top:hover {
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.3);
 }
 /* End Go Top */
+.g {
+    background-color: rgba(161, 153, 153, 0.2);
+    height: 130px;
+}
+
+
+.time-icon {
+    color: red;
+}
+
+.cmt-icon {
+    color: #121eff;
+}
