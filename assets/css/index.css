@@ -1,0 +1,561 @@
+/* StarT Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+
+/* End Reset CSS */
+
+/* Start Font CSS */
+
+
+/* End Font CSS */
+/* Start Header CSS */
+.header {
+    height: 100px;
+    background-color: #000;
+        /* position: fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 100%;
+}
+
+/* End Header CSS */
+/* Start Container CSS */
+.container {
+    height: auto;
+    width: 100%;
+
+}
+
+/* End Container CSS */
+/* Start Footer CSS */
+
+footer {
+    height: 114px;
+    width: 100%;
+    margin-top: 30px;
+}
+footer hr {
+    margin-bottom: 20px;
+}
+
+/* End Footer CSS */
+/* Start Logo Text */
+.logo {
+    height: 56px;
+    background: #fff;
+    
+}
+.logo-left {
+    float: left;
+}
+.reg-log {
+    float: right;
+    line-height: 56px;
+    padding: 0 50px;
+}
+.reg-log a {
+    text-decoration: none;
+    color: #0b7dda;
+    opacity: 0.8;
+}
+.reg-log a:hover {
+    opacity: 1;
+}
+.logo h2,
+h3 {
+    margin-left: 83px;
+}
+
+.logo h2 {
+    color: #007A87;
+}
+
+/* End Logo Text */
+
+/* Start CSS Menu */
+
+#nav {
+    display: inline-block;
+    margin-left: 60px;
+    /* Dàn hàng ngangg */
+
+}
+
+#nav>li {
+    display: inline-block;
+
+}
+
+#nav li {
+    position: relative;
+    list-style: none;
+
+}
+
+#nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+#nav li a {
+    text-decoration: none;
+    line-height: 46px;
+    display: block;
+    padding: 0 24px;
+}
+
+/* Start Sub-menu CSS */
+
+#nav .subnav {
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav .subnav li:hover,
+#nav>li:hover>a {
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav .subnav a {
+    color: #000;
+    padding: 0 12px;
+    line-height: 38px;
+
+}
+
+.nav-arrow-down {
+    font-size: 14px;
+}
+
+/* End Sub-menu CSS */
+
+/* Start Icon Search CSS */
+
+.header .search-btn {
+    margin: 0px 0px;
+    color: #fff;
+    float: right;
+    line-height: 44px;
+    padding: 0 21px;
+}
+
+.header .search-btn:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+/* End Icon Search CSS */
+
+/* Start Slider Text CSS */
+.text-slider {
+    width: 100%;
+    height: 24px;
+    background-color: #f70c29;
+}
+
+.section {
+    text-align: left;
+
+}
+
+.bg-gradient {
+    color: black;
+}
+
+.slider {
+    position: absolute;
+    top: -40px;
+    left: 70px;
+     width: 100%;
+    height: 40px;
+}
+
+.hot p {
+    color: #fff;
+    margin-left: 60px;
+
+}
+
+.box {
+    padding: 20px;
+    color: initial;
+}
+
+.box a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.hot {
+    margin-left: 30px;
+}
+
+.hot p {
+    line-height: 22px;
+}
+
+.slick-prev {
+    position: absolute;
+    right: -30px;
+    left: -25px;
+    background-color: black;
+}
+
+.slick-next {
+    right: -25px;
+    background-color: black;
+}
+
+/*End Slider Text CSS */
+
+/* test */
+.news {
+    font-size: 20px;
+    background-color: yellow;
+    color: #fff;
+}
+
+/* Bai viet */
+.tintuc {
+    width: 100%;
+    
+}
+
+.tintuc img {
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.tintuc img:hover {
+    opacity: 0.6;
+}
+
+.tintuc button {
+    
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(18, 95, 95,1);
+    border: 0px solid #fff;
+    color: #fff;
+    line-height: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.tintuc button:hover {
+    background-color: rgb(18, 95, 95,0.9);
+}
+.tintuc > a {
+    text-decoration: none;
+
+}
+
+.tintuc h1 {
+    margin-bottom: 10px;
+    font-size: 17px;
+    max-height: 240px;
+    text-overflow: ellipsis;
+    /* text-overflow: ellipsis; */
+    clear: both;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    /* padding-bottom: 1rem; */
+}
+.main-right a {
+    text-overflow: ellipsis;
+    /* text-overflow: ellipsis; */
+    clear: both;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; 
+margin-bottom: 20px;}
+
+.tintuc h1:hover a {
+    color: #4D9FA9;
+}
+
+.tintuc p {
+    font-size: 11px;
+    margin-bottom: 7px;
+}
+
+.tintuc h2 {
+    font-size: 24px;
+    padding-left: 10px;
+    margin-top: 10px;
+    border-top: 1px;
+    background-color: rgb(159, 179, 179,0.2);
+    color: #0b7dda;
+    width: 200px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+    
+}
+/* End bai viet */
+a {
+    text-decoration: none;
+}
+.main-right {
+    background: rgb(227, 227, 227, 0.3);
+    height: 950px;
+}
+
+.main-right h1 {
+    margin: 20px 20px;
+    color: #4D9FA9;
+}
+
+.main-right a {
+    text-decoration: none;
+    color: #4A4646;
+
+}
+
+.main-right ul li {
+    padding-bottom: 20px;
+    margin-left: 70px;
+}
+
+.main-right img {
+    width: 100%;
+}
+
+.banner {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 2% auto;
+    width: 100%;
+    height: 300px;
+    background: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.slideshow-container {
+    height: 200px;
+    width: 100%;
+}
+
+/*banner auto*/
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    height: 244px;
+}
+
+/* .mySlides img {
+    vertical-align: middle; 
+} */
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1116px;
+    position: relative;
+    margin: auto;
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.chia img {
+    width: 100%;
+}
+
+.mar-row {
+    margin-top: 15px;
+}
+/* Footer */
+.footer1 img {
+    width: 50%;
+}
+.footer1 {
+    text-align: center;
+}
+.footer1 h4 {
+    justify-content: center;
+}
+/* End Footer */
+
+/* Nav Mobile */
+
+.nav-overplay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: none;
+    animation: fadeIns linear 0.4s;
+}
+
+.nav-mobile {
+    position: fixed;
+    top: 64px;
+    left: 110px;
+    bottom: 0;
+    height: 293px;
+    width: 320px;
+    max-width: 100%;
+    background-color: rgb(200, 200, 200, 1);
+    transform: translateX(-137%);
+    opacity: 0;
+    transition: transform linear 0.4s, opacity linear 0.6s;
+}
+#nav-list-mobile li:hover {
+    background-color: #4D9FA9;
+}
+.nav-close-icon {
+    width: 28px;
+    height: 28px;
+    float: right;
+    margin-right: 20px;
+    fill: #0b7dda;
+
+}
+.nav-icon-btn {
+    margin: 5px 15px;
+    width: 28px;
+    height: 28px;
+    color: #ccc;
+    float: left;
+    display: none;
+    fill: #fff
+}
+#nav-input-mobile {
+    display: none;
+}
+
+#nav-input-mobile:checked~.nav-overplay {
+    display: block;
+}
+
+#nav-input-mobile:checked~.nav-mobile {
+    transform: translateX(-20%);
+    opacity: 1;
+
+}
+
+.nav-mobile li {
+    padding: 15px;
+    font-size: 1rem;
+    list-style: none;
+}
+
+.nav-mobile li a {
+    text-decoration: none;
+}
+
+@keyframes fadeIns {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+/* End Nav Mobile */
+/* Go top */
+.go-top {
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	text-decoration: none;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.3);
+	font-size: 12px;
+	padding: 1em;
+	display: none;
+    
+}
+.go-top i {
+    float: left;
+
+}
+.go-top:hover {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+/* End Go Top */
+.g {
+    background-color: rgba(161, 153, 153, 0.2);
+    height: 130px;
+}
+
+
+.time-icon {
+    color: red;
+}
+
+.cmt-icon {
+    color: #121eff;
+}
+
