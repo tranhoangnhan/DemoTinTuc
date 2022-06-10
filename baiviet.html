@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài viết</title>
+    <link rel="stylesheet" href="assets/css/baiviet.css">
+    <!-- CSS Web -->
+    <link rel="stylesheet" href="assets/font/themify-icons-font/themify-icons/themify-icons.css"> <!-- Icon -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"> <!-- Slider Text -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css">
+    <!-- Slider Text -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Icon -->
+    <link rel="stylesheet" href="assets/css/grid.css"> 
+    <link rel="stylesheet" href="assets/css/reponsive.css">
+    <!-- Grid System -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css' />
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    
+    
+  <!-- Start: Preloader -->
+  
+   <div class="header">
+        <!-- Slider Text -->
+        <!-- <div class="text-slider">
+            <div id="slider">
+                <div class="hot">
+                    <p>Xu hướng: </p>
+
+                    <div class="section bg-gradient">
+                        <div class="slider autoplay">
+
+                            <div class="box">
+                                <a href="#">Triệu Quân Sự vượt ngục lần thứ 1000</a>
+                            </div>
+                            <div class="box">
+                                <a href="#">Hướng dẫn hack NASA bằng HTML</a>
+
+                            </div>
+                            <div class="box">
+                                <a href="#">Hướng dẫn đi tè dành cho người chưa biết đi tè</a>
+                            </div>
+                            <div class="box">
+                                <a href="#">Code ASM Java Full</a>
+                            </div>
+
+                        </div>
+
+                        <div class="contron-pre-next"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- End Slider Text -->
+
+        <div class="logo">
+            <!-- Logo đầu trang -->
+          <div class="logo-left">
+            <h2>hoangnhancode.com</h2>
+            <h3>Hỗ trợ bạn code thật tốt</h3>
+          </div>
+            <div class="reg-log">
+                <a href="dangnhap.html">Đăng nhập</a>
+            </div>
+        </div>
+      
+
+        <!-- Menu -->
+        <ul id="nav">
+            <li><a href="index.html"><i class="trangchu ti-home"></i></a></li>
+            <li><a href="gioithieu.html">Giới thiệu</a></li>
+            <li><a href="lienhe.html">Liên hệ</a></li>
+            <li><a href="#">
+                    Chủ đề
+                    <i class="nav-arrow-down ti-angle-down"></i>
+
+                </a>
+                <!-- Sub-menu -->
+                <ul class="subnav">
+                    <li><a href="laptrinh.html">Lập trình</a></li>
+                    <li><a href="thuthuat.html">Thủ thuật</a></li>
+                    <li><a href="tintuc.html">Tin tức</a></li>
+                </ul>
+            </li>
+            <!-- End Sub-menu -->
+        </ul>
+
+<!-- MENU MOBILE -->
+<label class="nav-icon-btn" for="nav-input-mobile">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+            <path
+                d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z" />
+        </svg>
+</label>
+<input type="checkbox" name="" id="nav-input-mobile" for="">
+<label for="nav-input-mobile" class="nav-overplay"></label>
+<div class="nav-mobile">
+    <label for="nav-input-mobile" class="nav-close-icon">
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+            <path
+                d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z" />
+        </svg>
+    </label>
+    <ul id="nav-list-mobile">
+        <li><a href="trangchu.html"><i class="trangchu ti-home"></i></a></li>
+        <li><a href="gioithieu.html">Giới thiệu</a></li>
+        <li><a href="lienhe.html">Liên hệ</a></li>
+
+        <!-- Sub menu -->
+        <li><a href="tintuc.html">Tin tức</a></li>
+        <li><a href="thuthuat.html">Thủ thuật</a></li>
+        <li><a href="laptrinh.html">Lập trình</a></li>
+
+
+
+    </ul>
+</div>
+
+
+        <div class="search-btn ti-search"></div> <!-- Icon Search -->
+
+        </div>
+
+        <!-- End menu -->
+    </div>
+</div>
+    
+
+
+
+
+    <div class="grid wide container">
+            <div class="banner"> </div>
+      
+        <div class="row mar-row">
+            
+                <div class="col l-9 m-9 c-12">
+                    <div class="link">
+                        <p><a href="index.html">Trang chủ</a> / Chủ đề / <a href="tintuc.html">Tin tức</a> / <a href="baiviet.html">  Modem 5G Qualcomm sẽ được trang bị trên smartphone tầm trung trong năm tới, chính thức mở ra kỷ nguyên phổ cập 5G                        </h1>
+            </a></p>
+                    </div>
+                       <div class="baiviet">
+                        <h1>
+                            Modem 5G Qualcomm sẽ được trang bị trên smartphone tầm trung trong năm tới, chính thức mở ra kỷ nguyên phổ cập 5G                        </h1>
+                            
+                            <audio src="assets/audio/AudioTextToSpeech.mp3" controls></audio>
+                            <p>
+                            Đúng như dự đoán của nhiều chuyên gia, công nghệ 5G đang có được những bước phát triển cực kỳ nhanh chóng. Dù mới chỉ được trang bị lần đầu tiên trên một số mẫu smartphone cao cấp ra mắt đầu năm nay, tuy nhiên rất có thể chuẩn kết nối internet tiên tiến này sẽ được phổ cập hoàn toàn trong năm sau khi các modem 5G Qualcomm nhiều khả năng sẽ được trang bị trên nhiều mẫu smartphone tầm trung.
+                        </p>
+                        <p>
+                            Theo tuyên bố mới nhất của Qualcomm tại triển lãm công nghệ IFA 2019 đang diễn ra tại Berlin, Đức, kết nối 5G sẽ được hãng tích hợp vào các model chipset thuộc dòng Snapdragon 6 và 7 series - dòng sản phẩm thường được trang bị trên các thiết bị thuộc phân khúc tầm trung. Cũng theo tiết lộ của nhà sản xuất CPU di động lớn nhất thế giới, những con chip này sẽ hỗ trợ đầy đủ các công nghệ 5G tiên tiến nhất hiện nay, bao gồm khả năng kết nối với phổ tần 6Ghz và mmWave.
+                        </p>
+                        <img src="https://st.quantrimang.com/photos/image/2019/09/07/modem-5g-qualcomm-se-duoc-trang-bi-tren-smartphone-tam-trung2.jpg" alt="">
+                        <em>Kết nối 5G sẽ được Qualcomm tích hợp vào các model chipset thuộc dòng Snapdragon 6 và 7 series</em>
+                        <p>
+                            Với động thái tích hợp 5G trên dòng sản phẩm tầm trung của một trong những nhà sản xuất chip lớn nhất thế giới, có thể khẳng định cánh cửa bước vào kỷ nguyên phổ cập của công nghệ kết nối tiên tiến này đã chính thức được mở ra. Bắt đầu từ năm tới, chúng ta được thấy 5G không còn là trang bị “chỉ được phép” xuất hiện trên thiết bị hàng đầu, đắt tiền như OnePlus 7 Pro hay Samsung Galaxy Note 10, và nhiều khả năng là cả làn sóng phổ cập 5G cho các dòng sản phẩm phổ thông nếu tốc độ ứng dụng của công nghệ này vẫn được duy trì như hiện tại.
+
+
+                        </p>
+                        <p>
+                            Hầu hết các thiết bị cầm tay 5G đang có mặt trên thị trường như Galaxy S10 5G, Galaxy Fold, LG V50, ZTE Axon 10 Pro 5G và các mẫu điện thoại 5G của OnePlus đều sở hữu modem Qualcomm 5G độc đập, tách biệt hoàn toàn với bộ xử lý chính. Đây có thể coi là một điểm hạn chế bởi modem này sẽ chiếm thêm diện tích, khiến việc tối ưu hóa không gian bên trong thiết bị trở nên khó khăn hơn cũng như tiêu hao nhiều điện năng hơn. Đó là còn chưa kể đến hiệu quả tản nhiệt cũng bị ảnh hưởng ít nhiều.
+
+                        </p>
+                        <img src="https://st.quantrimang.com/photos/image/2019/09/07/modem-5g-qualcomm-se-duoc-trang-bi-tren-smartphone-tam-trung1.jpg" alt="">
+                        <em>5G hiện mới chỉ được trang bị trên những dòng sản phẩm cao cấp, đắt tiền
+                        </em>
+                        <p>Như vậy việc modem 5G được tích hợp sẵn trên CPU sẽ giúp loại bỏ hoàn toàn những vấn đề kể trên. Đồng thời cũng hạn chế bớt một số nhược điểm của công nghệ này như nhu cầu về điện năng sẽ giảm bớt, hiệu suất ổn định hơn, và cuối cùng là giúp tiết kiệm không gian bên trong máy cho các linh kiện quan trọng khác, ví dụ như viên pin với dung lượng cao hơn. Về mặt thiết kế, modem 5G được tích hợp sẵn trên CPU cho phép các nhà thiết kế tối ưu hóa hơn nữa độ mỏng và nhẹ của sản phẩm, tương tự như những mẫu điện thoại LTE hiện hành. Đây là một triển vọng hấp dẫn, hãy thử tưởng tượng thời lượng pin cho 5G có thể đáp ứng các tiêu chuẩn như đối với LTE hiện tại, trong khi thiết kế vẫn đảm bảo được sự gọn nhẹ và tính di động.</p>
+                        <p>
+                            Đầu năm nay, Qualcomm thông báo rằng họ đã tích hợp thành công modem 5G trực tiếp vào các bộ xử lý 8-series hàng đầu thế hệ tiếp theo, dự kiến sẽ được phát hành trong năm năm 2020. Ngoài ra công ty cũng có kế hoạch công bố thêm chi tiết về chipset tích hợp 5G vào cuối năm nay.
+                        </p>
+                        <img src="https://st.quantrimang.com/photos/image/2019/09/07/modem-5g-qualcomm-se-duoc-trang-bi-tren-smartphone-tam-trung3.jpg" alt="">
+                        <em>
+                            Việc modem 5G được tích hợp sẵn trên CPU chính sẽ mang lại rất nhiều ưu điểm
+
+                        </em>
+                        <p>
+                            Theo thông tin rò rỉ, đã có khoảng 12 nhà sản xuất smartphone lớn nhỏ, trong đó nổi bật nhất là LG, Oppo và HMD Global (hãng sản xuất điện thoại thông minh sở hữu thương hiệu Nokia), có kế hoạch sử dụng bộ xử lý 7-series 5G mới trên những sản phẩm sẽ ra mắt trong năm 2020 của mình. Qualcomm hy vọng có thể cung ứng đủ nhu cầu chip 5G tích hợp cho các thiết bị ra mắt vào một thời điểm nào đó sau ngay sau quý IV năm nay, tức là đầu năm 2020. Trong khi các thiết bị sử dụng chipset 6-series tích hợp 5G dự kiến sẽ ra mắt vào nửa cuối năm sau.
+                        </p>
+                        <video src="assets/video/video1.mp4" controls="controls" type="video/mp4" autoplay></video>
+                        <p>
+                            Bên cạnh thành công về công nghệ, việc Qualcomm có thể tích hợp được 5G vào các dòng chip tầm trung còn mang nhiều ý nghĩa hơn thế. Điều này mở ra cho Qualcomm triển vọng tiếp tục duy trì vị thế thống lĩnh thị trường CPU di động toàn cầu trong nhiều năm tới, với khả năng biến tương thích 5G thành chức năng mặc định cho gần như mọi mẫu điện thoại Android trên thị trường.
+                        </p>
+                        <img src="https://st.quantrimang.com/photos/image/2019/09/07/modem-5g-qualcomm-se-duoc-trang-bi-tren-smartphone-tam-trung4.jpg" alt="">
+                        <em>
+                            Việc đưa 5G lên dòng sản phẩm tầm trung mở ra cho Qualcomm triển vọng tiếp tục duy trì vị thế thống lĩnh thị trường
+                        </em>
+
+                        <ul>
+                            <li><a href="">Tại sao hầu hết hacker giỏi đều đến từ Nga</a>
+                            <li>
+<a href="">                                Bị dính ransomware, một ngân hàng troll lại hacker bằng ảnh nhạy cảm
+</a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Phát hiện một bác sĩ tim mạch ngày cầm dao mổ đêm code ransomware
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href=""> Nhật ký Darknet: Hacker triệu đô DAWGYG và hành trình từ tội phạm tới chuyên gia an ninh mạng</li>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
+                        <div class="comment">
+                            <p>0 bình luận</p>
+                            <input type="text" placeholder="Hãy nhập suy nghĩ của bạn ...">
+                            <button>Bình luận</button>
+
+                        </div>
+                    </div>
+                        
+                     </div>
+                <div class="col l-3 m-3 c-0">
+
+                    <div class="main-right">
+                        <h1>Lưu trữ</h1> <!-- Danh mục lưu trữ -->
+                        <ul>
+                            <li><a href="">Tháng năm 2022</a></li>
+                            <li><a href="">Tháng bốn 2022</a></li>
+                            <li><a href="">Tháng ba 2022</a></li>
+                            <li><a href="">Tháng hai 2022</a></li>
+                        </ul>
+                        <img src="assets/img/qc1.png" alt="">
+                        <h2>Bài viết thịnh hành</h2>
+                        <div class="tintucright">
+    
+                            <img src="assets/img/tintuc7.jpg" alt="">
+                            <h4><a href="">Oukitel WP19, chiếc smartphone có pin 21.000mAh, sạc một lần dùng cả tuần
+                                </a>
+                            </h4>
+                            <img src="assets/img/tintuc7.jpg" alt="">
+                            <h4><a href="">Oukitel WP19, chiếc smartphone có pin 21.000mAh, sạc một lần dùng cả tuần
+                                </a>
+                            </h4>
+                            <img src="assets/img/tintuc7.jpg" alt="">
+                            <h4><a href="">Oukitel WP19, chiếc smartphone có pin 21.000mAh, sạc một lần dùng cả tuần
+                                </a>
+                            </h4>
+    
+                            <img src="assets/img/tintuc7.jpg" alt="">
+                            <h4><a href="">Oukitel WP19, chiếc smartphone có pin 21.000mAh, sạc một lần dùng cả tuần
+                                </a>
+                            </h4>
+    
+                            <img src="assets/img/tintuc7.jpg" alt="" id="none">
+                            <h4><a href="">Oukitel WP19, chiếc smartphone có pin 21.000mAh, sạc một lần dùng cả tuần
+                                </a>
+                            </h4>
+    
+                           
+    
+                        </div>
+                    </div>
+                </div>
+               
+                </div>
+
+          
+    <footer>
+        <hr/>
+
+        <div class="grid wide grid-ft">
+            <div class="row">
+                <div class="col l-4 m-4 c-12">
+                    <div class="footer1">
+                      <img src="https://xoso.diendanit.net/public/images/logoSaleNoti.png" alt="">
+                    </div>
+      
+                  </div>
+                
+                  <div class="col l-4 m-4 c-12">
+                      <div class="footer1">
+                        <h2>ĐỐI TÁC</h2>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Tu%E1%BB%95i_Tr%E1%BA%BB_Logo.svg" alt="">
+
+                      </div>
+                      <h4 style="text-align: center;"> &copy; HOANGNHANCODE.COM</h4>
+                    </div>
+      
+                    <div class="col l-4 m-4 c-12">
+                      <div class="footer1">
+                        <h2>THÔNG TIN LIÊN HỆ</h2>
+                        <p>0842763900 - hoangnhancode</p>
+                      </div>
+        
+                    </div>
+            </div>
+           
+            </div>
+
+            <a href="#" class="go-top"><i class="ti-angle-up"></i></a>
+        
+    </footer>
+    
+  
+        
+    
+    <!-- Script Slider Text -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js'></script>
+    <!-- End Slider Text -->
+    <script src="assets/JS/JS.js"></script>
+    
+<!-- Messenger Plugin chat Code -->
+<div id="fb-root"></div>
+
+<!-- Your Plugin chat code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "1865272000177040");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v14.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v14.0" nonce="sVgBi2BK"></script>
+</body>
+
+</html>
