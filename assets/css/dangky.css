@@ -272,6 +272,19 @@ footer hr {
 #login:disabled {
     opacity: 0.3;
 }
+#login-mobile {
+    width: 100%;
+
+    background-color: red;
+    height: 30px;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+    display: none;
+}
 .container h2 {
     text-align: center;
     margin-bottom: 5px;
