@@ -87,7 +87,7 @@ width: 20%;
 }
 
 
-@media  (min-width: 1024px) and (max-width: 1030px) {
+@media  (min-width: 1024px) and (max-width: 1239px) {
     .mySlides img {
         height: 244px;
     }
