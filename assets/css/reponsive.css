@@ -49,8 +49,7 @@
 }
 @media  (max-width: 739px)
  {
-       .logo h2,
-h3 {
+       .logo h2,.logo h3 {
     margin-left: 5px;
 }
     #login {
