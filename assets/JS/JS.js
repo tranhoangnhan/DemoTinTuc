@@ -153,5 +153,7 @@ function allowDrop(ev) {
     ev.preventDefault();
     var data = ev.dataTransfer.getData("text");
     ev.target.appendChild(document.getElementById(data));
+    document.getElementById("login").disabled = false;
+    alert('Bạn đã đồng ý điều khoản, để hủy vui lòng tải lại trang')
 
 }

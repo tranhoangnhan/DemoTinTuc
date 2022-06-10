@@ -2,7 +2,15 @@
     #none {
         /* display: none; */
     }
-  
+    #login {
+        display: none;
+    }
+    #login-mobile {
+        display: block;
+    }
+    .check {
+        display: none;
+    }
     .dexuat {
         margin-top: -190px;
     }
@@ -39,7 +47,17 @@
         width: 100%;
     }
 }
-@media  (max-width: 739px) {
+@media  (max-width: 739px)
+ {
+    #login {
+        display: none;
+    }
+    #login-mobile {
+        display: block;
+    }
+    .check {
+        display: none;
+    }
     .main-right {
         display: none;
     }
