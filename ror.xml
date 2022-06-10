@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://tranhoangnhan.github.io/DemoTinTuc/</title>
+  <link>https://tranhoangnhan.github.io/DemoTinTuc/</link>
+
+<item>
+     <link>https://tranhoangnhan.github.io/DemoTinTuc/</link>
+     <title>Trang chủ</title>
+     <description>Trang chủ</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://tranhoangnhan.github.io/DemoTinTuc/dangnhap.html</link>
+     <title>Đăng nhập</title>
+     <description>Đăng nhập</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://tranhoangnhan.github.io/DemoTinTuc/index.html</link>
+     <title>Trang chủ</title>
+     <description>Trang chủ</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://tranhoangnhan.github.io/DemoTinTuc/gioithieu.html</link>
+     <title>Giới thiệu</title>
+     <description>Giới thiệu</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://tranhoangnhan.github.io/DemoTinTuc/lienhe.html</link>
+     <title>Liên hệ</title>
+     <description>Liên hệ</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://tranhoangnhan.github.io/DemoTinTuc/laptrinh.html</link>
+     <title>Lập trình</title>
+     <description>Lập trình</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://tranhoangnhan.github.io/DemoTinTuc/thuthuat.html</link>
+     <title>Thủ thuật</title>
+     <description>Thủ thuật</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://tranhoangnhan.github.io/DemoTinTuc/tintuc.html</link>
+     <title>Tin tức</title>
+     <description>Tin tức</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://tranhoangnhan.github.io/DemoTinTuc/baiviet.html</link>
+     <title>Bài viết</title>
+     <description>Bài viết</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://tranhoangnhan.github.io/DemoTinTuc/dangky.html</link>
+     <title>Đăng ký</title>
+     <description>Đăng ký</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://tranhoangnhan.github.io/DemoTinTuc/dieukhoan.html</link>
+     <title>Điều khoản</title>
+     <description>Điều khoản</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
